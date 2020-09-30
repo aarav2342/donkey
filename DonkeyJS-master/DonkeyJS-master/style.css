@@ -1,0 +1,51 @@
+* {
+    font-family: Arial;
+}
+
+header h1, main {
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    line-height: 50%;
+}
+
+.canvas {
+	height: 500px;
+	overflow-y: auto;
+}
+
+table {
+	margin: auto;
+    background-color: green;
+}
+
+.points, .lives, .levels {
+    font-weight: bold;
+}
+
+td.floor {
+    background-color: purple;
+    color: red;
+}
+
+td.stair {
+    background-color: yellow;
+    color: yellow;
+}
+
+td.background {
+	background-color: brown;
+	color: black;
+}
+
+td.player {
+	background-color: red;
+	color: green;
+}
+
+td.enemy {
+    background-color: yellow;
+	color: blue;
+}
